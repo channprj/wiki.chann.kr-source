@@ -4,26 +4,24 @@ from __future__ import unicode_literals
 
 AUTHOR = 'CHANN'
 SITENAME = 'CHANN Wiki'
-SITESUBTITLE = 'Developer\'s Wiki'
+SITESUBTITLE = 'Personal Wiki'
 SITEURL = 'http://wiki.chann.kr'
 # SITEURL = 'http://localhost:8000'
-DISQUS_SITENAME = u'chann-wiki'
-
+# DISQUS_SITENAME = u'chann-wiki'
 # DISQUS_SECRET_KEY = u'YOUR_SECRET_KEY'
 # DISQUS_PUBLIC_KEY = u'YOUR_PUBLIC_KEY'
+# GOOGLE_ANALYTICS = ""
 
 ### THEME SETTING
-# THEME = 'theme/pelican-svbhack'
+THEME = 'theme/pelican-svbhack'
 # THEME = 'theme/replika'
 # BOOTSTRAP_NAVBAR_INVERSE = True
 # DISPLAY_CATEGORY_IN_BREADCRUMBS = True
-
 
 OUTPUT_PATH = 'output'
 PATH = 'content'
 
 TIMEZONE = 'Asia/Seoul'
-
 DEFAULT_LANG = 'ko'
 
 # Feed generation is usually not desired when developing
