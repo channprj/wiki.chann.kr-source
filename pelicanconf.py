@@ -4,16 +4,16 @@ from __future__ import unicode_literals
 
 AUTHOR = 'CHANN'
 SITENAME = 'CHANN Wiki'
-SITESUBTITLE = 'Novice Programmer'
-# SITEURL = 'http://wiki.chann.kr'
-SITEURL = 'http://localhost:8000'
-# DISQUS_SITENAME = u'chann-wiki'
+SITESUBTITLE = 'Developer\'s Wiki'
+SITEURL = 'http://wiki.chann.kr'
+# SITEURL = 'http://localhost:8000'
+DISQUS_SITENAME = u'chann-wiki'
 
 # DISQUS_SECRET_KEY = u'YOUR_SECRET_KEY'
 # DISQUS_PUBLIC_KEY = u'YOUR_PUBLIC_KEY'
 
 ### THEME SETTING
-# THEME = 'theme/notmyidea'
+# THEME = 'theme/pelican-svbhack'
 # THEME = 'theme/replika'
 # BOOTSTRAP_NAVBAR_INVERSE = True
 # DISPLAY_CATEGORY_IN_BREADCRUMBS = True
@@ -35,7 +35,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-         ('Blog', 'https://blog.chann.kr'),
+         ('Blog', 'http://blog.chann.kr'),
 )
 
 # Social widget
