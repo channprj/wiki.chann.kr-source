@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'CHANN'
 SITENAME = 'CHANN Wiki'
-SITESUBTITLE = 'Personal Wiki'
+SITESUBTITLE = 'Github-based Wiki'
 SITEURL = 'http://wiki.chann.kr'
 # SITEURL = 'http://localhost:8000'
 DISQUS_SITENAME = u'chann-wiki'
@@ -53,11 +53,11 @@ SOCIAL = (
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 # Remove html extension
-# ARCHIVE_URL = '{archive}'
-# ARCHIVE_SAVE_AS = ARCHIVE_URL+'.html'
+ARCHIVE_URL = '{archive}'
+ARCHIVE_SAVE_AS = ARCHIVE_URL+'.html'
 
 ARTICLE_URL = '{category}/{slug}'
 ARTICLE_SAVE_AS = ARTICLE_URL+'.html'

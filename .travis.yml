@@ -17,7 +17,7 @@ before_install:
 
 install:
 - pip install -r requirements.txt -q
-- npm install -g less
+#- npm install -g less
 
 before_script:
 - git clone --depth 1 --quiet https://${GH_TOKEN}@github.com/channprj/wiki.chann.kr.git output
