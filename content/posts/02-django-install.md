@@ -96,30 +96,30 @@ $ uwsgi --http :8000 --module kusle.wsgi
 
 
 ```shell
-    ################# uWSGI configuration #################
+################# uWSGI configuration #################
 
-    event = epoll
-    ssl = True
-    plugin_dir = .
-    timer = timerfd
-    capabilities = False
-    yaml = embedded
-    pcre = True
-    filemonitor = inotify
-    malloc = libc
-    zlib = True
-    execinfo = False
-    json = False
-    ifaddrs = True
-    xml = expat
-    routing = True
-    locking = pthread_mutex
-    kernel = Linux
-    debug = False
+event = epoll
+ssl = True
+plugin_dir = .
+timer = timerfd
+capabilities = False
+yaml = embedded
+pcre = True
+filemonitor = inotify
+malloc = libc
+zlib = True
+execinfo = False
+json = False
+ifaddrs = True
+xml = expat
+routing = True
+locking = pthread_mutex
+kernel = Linux
+debug = False
 
-    ############## end of uWSGI configuration #############
-    total build time: 24 seconds
-    *** uWSGI is ready, launch it with /home/kusle/.pyenv/versions/kusle-3.4.2/bin/uwsgi ***
+############## end of uWSGI configuration #############
+total build time: 24 seconds
+*** uWSGI is ready, launch it with /home/kusle/.pyenv/versions/kusle-3.4.2/bin/uwsgi ***
 ```
 
 ```ini
@@ -166,7 +166,7 @@ processes       = 10
 
 ## 자동으로 uWSGI 실행되도록 설정
 
-```
+```shell
 description "uWSGI server instance configured to serve my project"
 
 start on runlevel [2345]
