@@ -35,7 +35,7 @@ MENUITEMS = (
 )
 
 ### Plugin Setting
-PLUGIN_PATHS = ['pelican-plugins']
+PLUGIN_PATHS = ['plugin']
 PLUGINS = ['always_modified','related_posts','interlinks','pelican-page-hierarchy']  # 'random_article'
 
 ALWAYS_MODIFIED = True
