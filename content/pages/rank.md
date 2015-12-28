@@ -1,10 +1,10 @@
-Title: 소개
+Title: 랭킹
 Author: CHANN
 Date: 2015-12-25 00:00
 Modified: 2010-12-26 19:30
-Category: About
-Tags: about, pelican, github, github pages, introduction, miscellany
-Slug: about
+Category: Rank
+Tags: 
+Slug: rank
 Summary: 
 
 > 개발중입니다.
