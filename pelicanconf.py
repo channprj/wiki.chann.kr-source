@@ -20,7 +20,7 @@ GITHUB_USER = 'channprj'
 THEME = 'theme/peliwiki'
 # THEME = 'theme/replika'
 
-DIRECT_TEMPLATES = ('index', 'search', 'archives', 'categories','tags',)
+DIRECT_TEMPLATES = ('index', 'search', 'archives', 'categories','tags','page_list')
 BOOTSTRAP_NAVBAR_INVERSE = True
 
 DISPLAY_PAGES_ON_MENU = False
@@ -39,14 +39,12 @@ PLUGIN_PATHS = ['plugin']
 PLUGINS = ['always_modified','related_posts','interlinks','pelican-page-hierarchy']  # 'random_article'
 
 ALWAYS_MODIFIED = True
-RELATED_POSTS_MAX = 6
+RELATED_POSTS_MAX = 5
 # RANDOM = 'random.html'
 INTERLINKS = {
     '메인': 'http://wiki.chann.kr',
     'travis-ci': 'http://wiki.chann.kr/travis-ci'
 }
-PAGE_URL = '{slug}/'
-PAGE_SAVE_AS = '{slug}/index.html'
 SLUGIFY_SOURCE = 'basename'
 
 
@@ -94,7 +92,8 @@ ARTICLE_URL = '{category}/{slug}'
 ARTICLE_SAVE_AS = ARTICLE_URL+'.html'
 
 PAGE_URL = '{slug}'
-PAGE_SAVE_AS = PAGE_URL+'.html'
+# PAGE_SAVE_AS = PAGE_URL+'.html'
+PAGE_SAVE_AS = PAGE_URL+'/index.html'  # Multi Page
 
 CATEGORY_URL = '{slug}/index'
 CATEGORY_SAVE_AS = CATEGORY_URL+'.html'
