@@ -4,8 +4,8 @@
 {% block breadcrumbs %}
     {% if DISPLAY_BREADCRUMBS %}
     <ol class="breadcrumb">
-        <li><a href="{{ SITEURL }}" title="{{ SITENAME }}"><i class="fa fa-home fa-lg"></i></a></li>
-        <li class="active">Categories</li>
+        <li><a href="{{ SITEURL }}" title="{{ SITENAME }}"><i class="xi-home"></i></a></li>
+        <li class="active"><a href="{{ SITEURL }}/{{ CATEGORIES_URL | default('categories') }}" title="{{ SITENAME }}">Categories</a></li>
     </ol>
     {% endif %}
 {% endblock %}
