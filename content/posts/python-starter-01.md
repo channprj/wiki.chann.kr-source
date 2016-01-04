@@ -1,6 +1,10 @@
 Title: 파이썬 자료형, 연산자 기초
-Date: 2016-01-04 20:12
 Slug: python-variable-operator
+Date: 2016-01-04 20:12
+Category: Python
+Tags: python, programming
+Author: CHANN
+
 
 # 파이썬 자료형, 연산자 기초
 > 작성중
