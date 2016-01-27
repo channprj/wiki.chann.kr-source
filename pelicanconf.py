@@ -13,7 +13,7 @@ DISQUS_SITENAME = u'chann-wiki'
 # DISQUS_SECRET_KEY = u'YOUR_SECRET_KEY'
 # DISQUS_PUBLIC_KEY = u'YOUR_PUBLIC_KEY'
 # GOOGLE_ANALYTICS = ""
-GITHUB_USER = 'channprj'
+# GITHUB_USER = 'channprj'
 
 
 ### Theme Setting
@@ -27,6 +27,7 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_BREADCRUMBS = True
 DISPLAY_CATEGORY_IN_BREADCRUMBS = True
+HIDE_SIDEBAR = True
 MENUITEMS = (
     ('인덱스', '/indexed'),
     ('최근문서', '/recent'),
