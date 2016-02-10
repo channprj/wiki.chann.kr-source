@@ -21,8 +21,8 @@ THEME = 'theme/peliwiki'
 # THEME = 'theme/replika'
 
 DIRECT_TEMPLATES = ('index', 'search', 'archives', 'categories','tags','page_list')
-BOOTSTRAP_NAVBAR_INVERSE = True
 
+BOOTSTRAP_NAVBAR_INVERSE = True
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_BREADCRUMBS = True
