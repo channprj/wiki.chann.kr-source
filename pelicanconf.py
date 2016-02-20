@@ -7,7 +7,7 @@ from __future__ import unicode_literals
 AUTHOR = 'CHANN'
 SITENAME = 'CHANN Wiki'
 SITESUBTITLE = 'Github-based Wiki'
-SITEURL = 'http://wiki.chann.kr'
+SITEURL = 'https://wiki.chann.kr'
 # SITEURL = 'http://localhost:8000'
 DISQUS_SITENAME = u'chann-wiki'
 # DISQUS_SECRET_KEY = u'YOUR_SECRET_KEY'
